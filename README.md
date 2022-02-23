@@ -20,3 +20,16 @@ They both have p-values under 5 percent which means that they are significativel
 3- This model can predict the mpg of MechaCar prototypes effectively based on the R-squared of 0.7149. When the R-squared is close to 1, the model can predict effectively the value of the dependent variable. 
 
 ![](regression1.png)
+
+##Summary Statistics on Suspension Coils
+
+In this section, we answer this question : 
+
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+
+As we can see on the pictures below. For the whole dataset, the variance is below 100 PSI (62.29). However, when we look at each manufacturing lot we can see that Lot 3 does not respect this policy. The variance is 170.29 PSI which is way larger than 100. 
+
+![](total_summary.png)
+
+![](lot_summary.png)
+
