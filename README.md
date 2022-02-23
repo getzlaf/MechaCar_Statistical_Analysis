@@ -21,7 +21,7 @@ They both have p-values under 5 percent which means that they are significativel
 
 ![](regression1.png)
 
-##Summary Statistics on Suspension Coils
+## Summary Statistics on Suspension Coils
 
 In this section, we answer this question : 
 
