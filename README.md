@@ -33,3 +33,23 @@ As we can see on the pictures below. For the whole dataset, the variance is belo
 
 ![](lot_summary.png)
 
+## T-Tests on Suspension Coils
+
+The first t-test that we performed is to see if the population mean is statistically equal to the sample mean. 
+As you can see below, we can not reject the null hypothesis that the sample mean is different from 1,500 PSI (at a confidence level of 95%). 
+
+![](t_test1.png)
+
+The second t-test is to see if the sample from Lot 1 is different from the population mean. As you can see, we accept the null hypothesis. The means are statistically the same at 95% confidence level. 
+
+![](t_test2.png)
+
+The third t-test is to see if the sample from Lot 2 is different from the population mean. With a p-value of 0.61 we can not reject the null hypothesis. There is no statistical difference between Lot2 and the population mean. 
+
+![](t_test3.png)
+
+The fourth and final test that we performed is to see if the sample from Lot 3 is different from the population mean. The p-value is equal to 0.042 which is smaller from 0.05. That means that we have to reject the null-hypothesis. Based on that dataset we can say that the mean from lot 3 is different from 1500 PSI. 
+
+![](t_test4.png)
+
+
